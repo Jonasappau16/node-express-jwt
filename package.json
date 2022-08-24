@@ -1,0 +1,34 @@
+{
+  "homepage":  "http://jonasappau16.github.io/node-express-jwt.git",
+  "name": "node-express-jwt-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "-": "^0.0.1",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.23",
+    "save-dev": "^0.0.1-security",
+    "validator": "^13.7.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasappau16/node-express-jwt-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonasappau16/node-express-jwt-auth/issues"
+  },
+  "homepage": "http://jonasappau16.github.io/node-express-jwt.git",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
